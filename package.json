@@ -1,0 +1,16 @@
+{
+  "name": "wordcount",
+  "main": "./lib/wordcount",
+  "version": "0.0.0",
+  "description": "Get a countdown of the arrival time.",
+  "activationCommands": {
+    "atom-workspace": "wordcount:toggle"
+  },
+  "repository": "https://github.com/Jarvizx/countdownpayklok",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}

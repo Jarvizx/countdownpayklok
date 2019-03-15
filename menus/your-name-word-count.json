@@ -1,0 +1,51 @@
+{
+  "context-menu": {
+    "atom-workspace": [
+     {
+       "label": "Text",
+       "submenu": [
+         {
+           "label": "Inspect Element",
+           "command": "core:inspect"
+         },
+         {
+           "type": "separator"
+         },
+         {
+           "label": "Selector All",
+           "command": "core:select-all"
+         },
+         {
+           "type": "separator"
+         },
+         {
+           "label": "Deleted Selected Text",
+           "command": "core:delete"
+         }
+       ]
+     }
+   ],
+    "atom-text-editor": [
+      {
+        "label": "Toggle your-name-word-count",
+        "command": "your-name-word-count:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Word Count",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "your-name-word-count:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
